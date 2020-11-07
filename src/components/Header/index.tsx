@@ -5,6 +5,7 @@ import { shade } from 'polished'; // Shade pegar uma cor e aplica um percentual 
 
 import { Container } from './styles';
 
+
 interface Props{
   toggleTheme(): void;
 }
@@ -14,8 +15,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
 
   return(
     <Container>
-      Header
-
+      <h2>Header</h2>
       <Switch
         //Função para trocar os temas
         onChange={toggleTheme}
@@ -26,7 +26,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         width={40}
         handleDiameter={20}
         offColor={shade(0.15, colors.primary)}
-        onColor={colors.primary}
+        onColor={colors.secundary}
        />
     </Container>
   );

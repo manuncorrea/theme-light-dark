@@ -1,4 +1,12 @@
-## Bibliotecas instaladas
+# Temas Dark e Light
 
-yarn add styled-components
-yarn add react-switch
+## Dark 
+<img src="./github/dark.png">
+
+## Light
+<img src="./github/light.png">
+
+**Tecnologias**
+- React
+- TypeScript
+- Styled Components
